@@ -14,11 +14,11 @@ $(function(){
     })
 })
 
-//
-
-// $(function(){
-//     if(move === 0) {
-//         $('.device-list').addClass('active')
-//     }
-//     console.log(move)
-// })
+$('ul.gnb > li').on('mousemove',function(){
+$(this).find('ul.nav').addClass('on')
+    
+})
+$('ul.gnb > li').on('mouseleave',function(){
+    $(this).find('ul.nav').removeClass('on')
+        
+    })

@@ -132,11 +132,11 @@ ul.gnb>li>a {
     padding: 10px;
 }
 
-ul.gnb>li a:hover {
+ ul.gnb>li > a:hover {
     border-radius: 5px;
     background-color: #dbdce068;
 
-}
+ }
 
 ul.gnb>li>ul.nav {
     position: absolute;
